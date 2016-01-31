@@ -1,0 +1,19 @@
+{
+  "name": "quoty",
+  "main": "./lib/quoty",
+  "version": "0.0.0",
+  "description": "Handles the quotes for you.",
+  "keywords": ["code", "quotes", "quick-feature", "string", "quoty"],
+  "activationCommands": {
+    "atom-workspace": "quoty:quote-switch"
+  },
+  "repository": "https://github.com/cbramy/quoty",
+  "license": "Apache-2.0",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "lodash": "4.0.1",
+    "atom-space-pen-views": "^2.1.1"
+  }
+}
